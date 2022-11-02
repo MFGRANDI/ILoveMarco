@@ -1,4 +1,4 @@
-self.addEventListener("install", e => {
+self.addEventListener("installaaa", e => {
     console.log("Caching resources..");
     e.waitUntil(
         caches.open("static").then(cache => {
